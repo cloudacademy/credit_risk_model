@@ -1,0 +1,16 @@
+name: mlflow-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip=23.3.1
+  - pip:
+    - azureml-inference-server-http
+    - mlflow>=3.0
+    - numpy>=1.24,<3.0
+    - pandas>=2.0
+    - psutil
+    - pyarrow
+    - scikit-learn
+    - scipy
+    - xgboost
