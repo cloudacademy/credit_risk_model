@@ -5,8 +5,10 @@ dependencies:
   - python=3.11
   - pip=23.3.1
   - pip:
+    - azureml-defaults
     - azureml-inference-server-http
-    - mlflow>=3.0
+    - inference-schema
+    - mlflow>=3.0,<3.15
     - numpy>=1.24,<3.0
     - pandas>=2.0
     - psutil
